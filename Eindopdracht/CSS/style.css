@@ -1,0 +1,726 @@
+* { /*Het sterretje geld voor de hele pagina */
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat';
+}
+/* Hier komt de main te staan, hierin geld alles wat in de main staat mee.*/
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: 98, 9vw;
+  background-color: #0A1117;
+  align-items: center;
+}
+
+/* Hier staan een paar algemene kleurtjes */
+
+.color-blue {
+  background-color: #77E6FF;
+}
+
+.color-pink {
+  background-color: #E2C1F9;
+}
+
+.color-yellow {
+  background-color: #DBE268;
+}
+
+.color-gray {
+  background-color: #232b33;
+  padding-bottom: -150px;
+}
+
+section { /* Alle secties worden hierdoor beinvloed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 98, 5vw;
+  height: 125px;
+  background-color: #0a1117;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Hier staan de bovenste mediaknoppen */
+nav ul {
+  font-family: 'montserrat';
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A1117;
+}
+
+nav ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Hover zorgt voor een verandering als de muis hovert over iets */
+nav ul li a:hover {
+  background-color: darkgray;
+  border-radius: 10px;
+}
+
+.login-button:hover {
+  background-color: pink;
+  color: #0A1117;
+}
+
+.login-button {
+  text-align: center;
+  color: white;
+  font-family: 'montserrat';
+  text-decoration: none;
+  margin-left: 150px;
+  width: 75px;
+  height: 25px;
+  padding-top: 5px;
+  background-color: #243241;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #121E28;
+  display: flex;
+  height: 130px;
+  width: 97, 1%;
+  justify-content: center;
+  list-style-type: none;
+  overflow: hidden;
+  align-items: center;
+  padding: 14px 16px;
+  font-family: 'montserrat';
+}
+
+.legal {
+  color: rgb(255, 217, 0);
+}
+
+.foot {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.media {
+  align-self: center;
+}
+
+ul li a:hover {
+  background-color: darkgray;
+  border-radius: 10px;
+}
+
+.mediabuttons {
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 0vw;
+  display: flex;
+  position: relative;
+  right: 50px;
+}
+
+.mediabuttons img {
+  margin-right: 10px;
+}
+
+.twitter:hover {
+  scale: 1.2;
+  opacity: 100%;
+  transition: all 0.5s;
+  box-shadow: #77E6FF 0 0 10px 5px;
+  border-radius: 25px;
+}
+
+.frame5609:hover {
+  scale: 1.2;
+  opacity: 100%;
+  transition: all 0.5s;
+  box-shadow: #7795FF 0 0 10px 5px;
+  border-radius: 25px;
+}
+
+.youtube:hover {
+  scale: 1.2;
+  opacity: 100%;
+  transition: all 0.5s;
+  box-shadow: #F78787 0 0 10px 5px;
+  border-radius: 25px;
+}
+
+.discord:hover {
+  scale: 1.2;
+  opacity: 100%;
+  transition: all 0.5s;
+  box-shadow: #9277FF 0 0 10px 5px;
+  border-radius: 25px;
+}
+
+/* Hier komt de default font voor Lato te staan */
+.latodefault {
+  color: white;
+  font-family: 'Lato';
+  font-weight: bold;
+}
+
+.opening {
+  justify-content: center;
+  text-align: center;
+  margin-top: 75px;
+  font-size: 50px;
+}
+
+.openingtekst {
+  display: flex;
+  color: white;
+  font-family: 'montserrat';
+  font-size: large;
+  font-weight: medium;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.getStarted:hover {
+  scale: 1.2;
+  opacity: 100%;
+  transition: all 0.5s;
+  box-shadow: #CEAAFF 0 0 10px 5px;
+}
+
+.getStarted {
+  text-align: center;
+  box-shadow: #544019 0px 3px 10px 1px;
+}
+
+.dubbelpijltje {
+  margin-top: 80px;
+}
+
+.hoek1 {
+  width: 150px;
+}
+
+.hoek2 {
+  width: 325px;
+}
+
+.logo {
+  margin-right: 150px;
+}
+
+.sparkles {
+  position: relative;
+  left: -350px;
+  top: 50px;
+}
+
+.ready {
+  display: flex;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  justify-content: center;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.containerbuttons {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.container-buttons2 {
+  padding-bottom: 40px;
+}
+
+.button:hover {
+  background-color: #363c43;
+}
+
+.button {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 12px;
+  height: 30px;
+  background-color: #182632;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.investment {
+  color: #FFB4D3;
+  width: 170px;
+}
+
+.startup {
+  color: #FFC24C;
+  width: 140px;
+}
+
+.service {
+  color: #D387F7;
+  width: 140px;
+}
+
+.community {
+  color: #77E6FF;
+  width: 180px;
+}
+
+.impact {
+  color: #23C9DE;
+  width: 140px;
+}
+
+.defi {
+  color: #FF9E9E;
+  width: 120px;
+}
+
+.more {
+  color: #707F8D;
+  width: 110px;
+}
+
+.imageArt {
+  position: relative;
+  left: 150px;
+}
+
+.superdao {
+  margin-top: 20px;
+}
+/* Hier staat de default font voor montserrat*/
+.montserratbold {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.projectbutton {
+  font-size: 18px;
+  position: relative;
+  padding: 10px 20px;
+  background-color: #FFB4D3;
+  width: 345px;
+  top: -20px;
+  right: -385px;
+  border-radius: 20px;
+  color: #0a1117;
+  z-index: 2;
+}
+
+.projectbutton:hover {
+  scale: 1.2;
+  opacity: 100%;
+  transition: all 0.5s;
+  box-shadow: #FFB4D3 0 0 10px 5px;
+}
+
+.rijentekstalgemeen {
+  display: flex;
+  color: #37424D;
+  justify-content: center;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.rijentekst1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.rijentekst5 {
+  display: flex;
+  color: #FFB4D3;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.sparkles10 {
+  display: flex;
+  align-items: center;
+  gap: 400px;
+  padding-right: 210px;
+  padding-top: 110px;
+}
+
+.workswith {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: -10px;
+}
+
+.connecties {
+  display: flex;
+  margin-top: 30px;
+}
+
+.connectietitelsalgemeen {
+  display: flex;
+  color: white;
+  font-family: "montserrat";
+  font-size: 13px;
+  justify-content: space-evenly;
+  gap: 20px
+}
+
+.connectietitelsalgemeen div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px
+}
+
+.helpateverystep {
+  display: flex;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.people {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.button01:hover {
+  scale: 1.2;
+  opacity: 100%;
+  transition: all 0.5s;
+}
+
+.button02:hover {
+  scale: 1.2;
+  opacity: 100%;
+  transition: all 0.5s;
+}
+
+.leerdoelen {
+  display: flex;
+  font-family: "lato";
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.leerdoelenrij {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.leerdoelen5 {
+  padding-right: 40px;
+}
+
+.kleinepaddingruimte {
+  padding-bottom: 150px;
+}
+
+.leerdoelen7 {
+  padding-right: 10px;
+}
+
+.leerdoelen8 {
+  padding-left: 70px;
+}
+
+.weeklydigestborder {
+  background-color: #232b33;
+  width: 855px;
+  height: 293px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #3e5061;
+  border-width: 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px
+}
+
+.displaycenter {
+  display: flex;
+  flex-direction: column;
+}
+
+.weeklydigestname {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.latestnews {
+  color: gray;
+  font-size: 20px;
+}
+
+.knopsettings {
+  color: #0a1117;
+  padding-top: 15px;
+  width: 140px;
+  height: 35px;
+  background-color: #CEAAFF;
+  border-radius: 10px;
+}
+
+.subscribe {
+  box-shadow: #544019 0px 3px 10px 1px;
+}
+
+.subscribe:hover {
+  scale: 1.2;
+  opacity: 100%;
+  transition: all 0.5s;
+  box-shadow: #CEAAFF 0 0 10px 5px;
+}
+
+.youremailbalkje {
+  display: flex;
+  gap: 15px;
+}
+
+.youremailbalkje input {
+  background-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(76, 84, 92);
+  border-radius: 10px;
+  color: white;
+}
+
+::placeholder {
+  display: flex;
+  position: relative;
+  padding-left: 10px;
+}
+
+.sparkles2 {
+  display: flex;
+  padding-top: 60px;
+  padding-right: 500px;
+}
+
+.press {
+  display: flex;
+  font-size: 30px;
+  padding-right: 820px;
+}
+
+.seeall {
+  color: gray;
+  padding-left: 820px;
+  padding-bottom: 30px;
+}
+
+.containerpadding {
+  padding: 20px;
+}
+
+.paddingtop {
+  padding-top: 15px;
+}
+
+.containerniek {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.presscontainers {
+  width: 280px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.containertext1 {
+  text-align: start;
+}
+
+.containertext2 {
+  text-align: start;
+  font-weight: 400;
+}
+/*Read wordt vaker gebruikt voor spacing*/
+.read1 {
+  padding-top: 75px;
+}
+
+.read2 {
+  padding-top: 38px;
+}
+
+.read3 {
+  padding-top: 55px;
+}
+
+.paddingtop2 {
+  padding-top: 150px;
+}
+
+.ster6 {
+  padding-right: 1000px;
+}
+
+.podcastscontainers {
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  gap: 30px;
+}
+
+.podcaststekst {
+  font-size: 30px;
+  padding-left: 80px;
+}
+
+.kleinepaddingruimte2 {
+  padding-left: 900px;
+}
+
+.presscontainers2 {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #3e5061;
+  border-width: 2px;
+}
+
+.containerpadding2 {
+  padding: 20px;
+  color: white;
+}
+
+.read4 {
+  padding-top: 60px;
+}
+
+.read5 {
+  padding-top: 45px;
+}
+
+.read6 {
+  padding-top: 65px;
+}
+
+.ideatekst1 {
+  font-size: 30px;
+}
+
+.ideatekst2 {
+  font-size: 27px;
+  color: #5A6C7E;
+}
+
+.laatsteonderdeel {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.laatstehoofdtekst1 {
+  text-align: end;
+  position: relative;
+  bottom: 40px;
+  left: 5px;
+}
+
+.laatstehoofdtekst2 {
+  text-align: end;
+  position: relative;
+  bottom: 40px;
+  right: 25px;
+}
+
+.laatsteafbeelding1 {
+  padding-left: 15px;
+}
+
+.laatstebuttons1 {
+  box-shadow: #FFC803 0px 3px 10px 1px;
+  display: flex;
+  background-color: #FFC803;
+  flex-direction: column;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 50px;
+}
+
+.laatstebuttons2 {
+  box-shadow: #CEAAFF 0px 3px 10px 1px;
+  display: flex;
+  background-color: #CEAAFF;
+  flex-direction: column;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 50px;
+  margin-bottom: 150px;
+}
+
+.laatstekleinetekst {
+  font-weight: 100;
+  font-size: 12px;
+  padding-left: 65px;
+}
+
+.formuliercontact {
+  height: 600px;
+  width: 650px;
+  margin-bottom: 200px;
+}
+
+.spaceremover {
+  margin-top: -45px;
+  background-color: #232b33;
+}
+
+.keuzeborder select {
+  background-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(76, 84, 92);
+  border-radius: 10px;
+  color: gray;
+}
+
+.laatsteknop {
+  width: 150px;
+  padding-bottom: 15px;
+  position: relative;
+  bottom: 35px;
+  left: 230px;
+}
+/* Einde CSS code. */
